@@ -1,0 +1,4 @@
+C:/Users/PopovArtem/CLionProjects/part2/cmake-build-debug/CMakeFiles/app.dir
+C:/Users/PopovArtem/CLionProjects/part2/cmake-build-debug/CMakeFiles/doFiles.dir
+C:/Users/PopovArtem/CLionProjects/part2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PopovArtem/CLionProjects/part2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
