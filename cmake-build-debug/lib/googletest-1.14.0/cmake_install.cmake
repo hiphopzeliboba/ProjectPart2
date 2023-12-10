@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/PopovArtem/CLionProjects/git_project_part_2/lib/googletest-1.14.0
+# Install script for directory: C:/Users/PopovArtem/CLionProjects/part2_korzh/lib/googletest-1.14.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/git_project_part_2")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/project_part2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/PopovArtem/CLionProjects/git_project_part_2/cmake-build-debug/lib/googletest-1.14.0/googlemock/cmake_install.cmake")
+  include("C:/Users/PopovArtem/CLionProjects/part2_korzh/cmake-build-debug/lib/googletest-1.14.0/googlemock/cmake_install.cmake")
 
 endif()
 

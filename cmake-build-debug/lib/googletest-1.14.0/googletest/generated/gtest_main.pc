@@ -1,5 +1,5 @@
-libdir=C:/Program Files (x86)/git_project_part_2/lib
-includedir=C:/Program Files (x86)/git_project_part_2/include
+libdir=C:/Program Files (x86)/project_part2/lib
+includedir=C:/Program Files (x86)/project_part2/include
 
 Name: gtest_main
 Description: GoogleTest (with main() function)

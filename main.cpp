@@ -2,11 +2,13 @@
 #include <fstream>
 #include "internal/methods.h"
 #include <omp.h>
-#include<string>
+#include<string.h>
+#include<chrono>
 
 
 
 int main() {
+    auto begin = std::chrono::high_resolution_clock::now();
     int j=1;
     std::ifstream file("../files/testFile1.txt");
     if (!file.is_open()) {
@@ -25,5 +27,8 @@ int main() {
     }
 
     file.close();
+    auto end = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<float> duration = end -begin;
+    std::cout<<duration.count();
     return 0;
 }

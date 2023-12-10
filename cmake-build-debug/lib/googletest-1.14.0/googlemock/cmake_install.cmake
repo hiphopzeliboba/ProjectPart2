@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/PopovArtem/CLionProjects/git_project_part_2/lib/googletest-1.14.0/googlemock
+# Install script for directory: C:/Users/PopovArtem/CLionProjects/part2_korzh/lib/googletest-1.14.0/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/git_project_part_2")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/project_part2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,28 +38,28 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xgmockx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/PopovArtem/CLionProjects/git_project_part_2/lib/googletest-1.14.0/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/PopovArtem/CLionProjects/part2_korzh/lib/googletest-1.14.0/googlemock/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xgmockx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/PopovArtem/CLionProjects/git_project_part_2/cmake-build-debug/lib/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/PopovArtem/CLionProjects/part2_korzh/cmake-build-debug/lib/libgmock.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xgmockx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/PopovArtem/CLionProjects/git_project_part_2/cmake-build-debug/lib/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/PopovArtem/CLionProjects/part2_korzh/cmake-build-debug/lib/libgmock_main.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xgmockx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/PopovArtem/CLionProjects/git_project_part_2/cmake-build-debug/lib/googletest-1.14.0/googletest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/PopovArtem/CLionProjects/part2_korzh/cmake-build-debug/lib/googletest-1.14.0/googletest/generated/gmock.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xgmockx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/PopovArtem/CLionProjects/git_project_part_2/cmake-build-debug/lib/googletest-1.14.0/googletest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/PopovArtem/CLionProjects/part2_korzh/cmake-build-debug/lib/googletest-1.14.0/googletest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/PopovArtem/CLionProjects/git_project_part_2/cmake-build-debug/lib/googletest-1.14.0/googletest/cmake_install.cmake")
+  include("C:/Users/PopovArtem/CLionProjects/part2_korzh/cmake-build-debug/lib/googletest-1.14.0/googletest/cmake_install.cmake")
 
 endif()
 
