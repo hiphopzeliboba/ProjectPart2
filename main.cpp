@@ -10,7 +10,7 @@
 int main() {
     auto begin = std::chrono::high_resolution_clock::now();
     int j=1;
-    std::ifstream file("../files/testFile1.txt");
+    std::ifstream file("./files/testFile1.txt");
     if (!file.is_open()) {
         std::cerr << "Error opening file" << std::endl;
         return 1;
