@@ -1,0 +1,30 @@
+name: build and test
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Clean Tempo Files
+      run: make clean
+      
+    - name: Run Makefile 
+      run: make all
+      
+    - name: Make files .txt
+      run: ./dofiles
+      
+    - name: Build App
+      run: ./build
+
+    - name: Testing App
+      run : ./testing
