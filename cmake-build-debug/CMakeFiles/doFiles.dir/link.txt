@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\doFiles.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~2.3\bin\mingw\bin\ar.exe qc CMakeFiles\doFiles.dir/objects.a @CMakeFiles\doFiles.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~2.3\bin\mingw\bin\G__~1.EXE  -std=c++20 -fopenmp -g -Wl,--whole-archive CMakeFiles\doFiles.dir/objects.a -Wl,--no-whole-archive -o doFiles.exe -Wl,--out-implib,libdoFiles.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\doFiles.dir\linklibs.rsp

@@ -1,2 +1,1 @@
-ptichki ptichki
-
+# project_part_2
