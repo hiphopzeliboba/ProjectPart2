@@ -7,7 +7,7 @@
 
 class CompTest : public ::testing::Test {
 protected:
-    std::string filePath = "../files/";
+    std::string filePath = "./files/";
 
     void SetUp() {
     }
@@ -83,7 +83,7 @@ double simpleSolve(std::string fileName, int lineNum){
 
 };
 TEST_F(CompTest, test0) {
-    //createFiles("testFile2.txt", 3, 200);
+    createFiles("testFile2.txt", 3, 200);
     //auto begin = std::chrono::high_resolution_clock::now();
     double testX = simpleSolve("testFile2.txt", 200);
     //auto end = std::chrono::high_resolution_clock::now();
@@ -93,7 +93,7 @@ TEST_F(CompTest, test0) {
 }
 
 TEST_F(CompTest, test1) {
-    //createFiles("testFile2.txt", 3, 200);
+    createFiles("testFile2.txt", 3, 200);
     //auto begin = std::chrono::high_resolution_clock::now();
     double testX = ompSolve("testFile2.txt", 200, 4);
     //auto end = std::chrono::high_resolution_clock::now();
@@ -102,7 +102,7 @@ TEST_F(CompTest, test1) {
     EXPECT_EQ(round(testX*10)/10, 3);
 }
 TEST_F(CompTest, test2) {
-    //createFiles("testFile2.txt", 3, 200);
+    createFiles("testFile2.txt", 3, 200);
     //auto begin = std::chrono::high_resolution_clock::now();
     double testX = ompSolve("testFile2.txt", 200, 2);
     //auto end = std::chrono::high_resolution_clock::now();
@@ -112,7 +112,7 @@ TEST_F(CompTest, test2) {
 }
 
 TEST_F(CompTest, test3) {
-    //createFiles("testFile3.txt", 3.33, 100);
+    createFiles("testFile3.txt", 3.33, 100);
    // auto begin = std::chrono::high_resolution_clock::now();
     double testX = ompSolve("testFile3.txt", 100, 6);
     //auto end = std::chrono::high_resolution_clock::now();
