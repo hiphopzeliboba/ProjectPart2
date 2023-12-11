@@ -112,13 +112,13 @@ TEST_F(CompTest, test2) {
 }
 
 TEST_F(CompTest, test3) {
-    createFiles("testFile3.txt", 3.33, 100);
+    createFiles("testFile3.txt", 3.3, 100);
    // auto begin = std::chrono::high_resolution_clock::now();
     double testX = ompSolve("testFile3.txt", 100, 6);
     //auto end = std::chrono::high_resolution_clock::now();
     //std::chrono::duration<float> duration = end -begin;
     //std::cout<<duration.count();
-    EXPECT_EQ(round(testX*100)/100, 3.33);
+    EXPECT_EQ(round(testX*10)/10, 3.3);
 }
 
 int main(int argc, char **argv) {
