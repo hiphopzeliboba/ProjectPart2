@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/PopovArtem/CLionProjects/part2_korzh/tests/computingTests.cpp" "CMakeFiles/run_tests.dir/tests/computingTests.cpp.obj" "gcc" "CMakeFiles/run_tests.dir/tests/computingTests.cpp.obj.d"
+  "C:/Users/PopovArtem/CLionProjects/PP2/tests/computingTests.cpp" "CMakeFiles/run_tests.dir/tests/computingTests.cpp.obj" "gcc" "CMakeFiles/run_tests.dir/tests/computingTests.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/PopovArtem/CLionProjects/part2_korzh/cmake-build-debug/lib/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "C:/Users/PopovArtem/CLionProjects/part2_korzh/cmake-build-debug/lib/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "C:/Users/PopovArtem/CLionProjects/PP2/cmake-build-debug/lib/googletest-1.14.0/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "C:/Users/PopovArtem/CLionProjects/PP2/cmake-build-debug/lib/googletest-1.14.0/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
