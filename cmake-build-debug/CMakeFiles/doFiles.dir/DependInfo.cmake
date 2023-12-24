@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/PopovArtem/CLionProjects/part2_korzh/files/doFiles.cpp" "CMakeFiles/doFiles.dir/files/doFiles.cpp.obj" "gcc" "CMakeFiles/doFiles.dir/files/doFiles.cpp.obj.d"
+  "C:/Users/PopovArtem/CLionProjects/PP2/files/doFiles.cpp" "CMakeFiles/doFiles.dir/files/doFiles.cpp.obj" "gcc" "CMakeFiles/doFiles.dir/files/doFiles.cpp.obj.d"
   )
 
 # Targets to which this target links.

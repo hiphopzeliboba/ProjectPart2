@@ -12,7 +12,7 @@ int main() {
 
     if (expFile.is_open()) {
         for (int i = 1; i <= 100; i++) {
-            expFile << double((i * exp(5.15))) << std::setprecision(2) << std::fixed << std::endl;
+            expFile << double(i * (exp(3.25)) + 0.001 + rand() % 1) << "\n";
         }
     }
     expFile.close();
